@@ -15,14 +15,13 @@ public class Main {
         /**
          * test adding
          */
-        list.print();
 
         System.out.println("Inserting keys");
-        list.insert(21);
-        //for (int i = 0; i < keys.length; i++){
-        //	System.out.println("insert " + keys[i]);
-        //	list.insert(keys[i]);
-        //}
+
+        for (int i = 0; i < keys.length; i++){
+            System.out.println("insert " + keys[i]);
+            list.insert(keys[i]);
+        }
         list.print();
 
         // /**
@@ -37,5 +36,23 @@ public class Main {
         // 	list.removeKeyAtIndex(idx[i]);
         // 	list.print();
         // }
+
+//		list.print();
+//		list.insert(1);
+//		list.print();
+//		list.insert(2);
+//		list.print();
+//		list.insert(3);
+//		list.print();
+//		list.insert(4);
+//		list.print();
+//		list.insert(5);
+//		list.print();
+//		list.insert(6);
+//		list.print();
+//		list.insert(7);
+//		list.print();
+
+
     }
 }
