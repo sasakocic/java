@@ -29,11 +29,17 @@ public class MyIntOrderedList {
     }
 
     public void print() {
+        System.out.println(toString());
+    }
+
+    public String toString() {
         MyIntListElement current = head;
+        String output = "";
         while (current != null) {
-            System.out.print(current.toString() + " ");
+            output += current.toString() + " ";
             current = current.getNext();
         }
+        return output;
     }
 
 }
